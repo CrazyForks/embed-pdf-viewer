@@ -1,0 +1,41 @@
+{
+  "name": "@embedpdf/example-svelte-tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@embedpdf/core": "workspace:*",
+    "@embedpdf/engines": "workspace:*",
+    "@embedpdf/models": "workspace:*",
+    "@embedpdf/plugin-loader": "workspace:*",
+    "@embedpdf/plugin-viewport": "workspace:*",
+    "@embedpdf/plugin-scroll": "workspace:*",
+    "@embedpdf/plugin-render": "workspace:*",
+    "@embedpdf/plugin-tiling": "workspace:*",
+    "@embedpdf/plugin-interaction-manager": "workspace:*",
+    "@embedpdf/plugin-selection": "workspace:*",
+    "@embedpdf/plugin-rotate": "workspace:*"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.1.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@tsconfig/svelte": "^5.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.18.5",
+    "@typescript-eslint/parser": "^8.18.5",
+    "eslint": "^9.17.0",
+    "eslint-plugin-svelte": "^2.43.0",
+    "svelte": "^5.36.7",
+    "svelte-preprocess": "^6.0.3",
+    "svelte-check": "^3.8.4",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.7.3",
+    "vite": "^6.3.5"
+  }
+}
