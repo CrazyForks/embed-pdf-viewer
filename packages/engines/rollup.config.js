@@ -82,6 +82,7 @@ const entries = {
   react: 'src/react/index.ts',
   preact: 'src/preact/index.ts',
   vue: 'src/vue/index.ts',
+  svelte: 'src/svelte/index.ts',
 };
 
 const createConfig = (format) =>
